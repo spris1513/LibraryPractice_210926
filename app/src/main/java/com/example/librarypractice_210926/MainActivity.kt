@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 //            권한 획득 여부에 따른 행동 방안 정리
             val pl = object : PermissionListener{
                 override fun onPermissionGranted() {
-//                    권한이 OK됐을때
+//                    권한이 OK 됐을때
 //                      전화를 걸자 실제로
                     //            Intent(4) 바로 전화 연결 > CALL
 
